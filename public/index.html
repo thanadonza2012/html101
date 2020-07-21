@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("พื้นหลัง.jpg");
+    color: rgb(198, 25, 214);
+    font-family: 'tahoma';
+    font-size: 15px;
+    line-height: 2em;
+ 
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+
+}
+
+
+/* Style the header */
+.header1 { 
+  background-color: #3efcd3;
+  padding: 15px;
+  width: 66.66%;
+  text-align: center;
+  float: left;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.header2 { 
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.header3 { 
+  background-color: #3efcd3;
+  float: left;
+  width: 66.66%;
+  padding: 15px;
+}
+
+
+.header4 { 
+  float: right ;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.header5 { 
+  background-color: #f523e3;
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+  float: left;
+}
+
+
+.header6 { 
+  background-color: #3fe928;
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+  float: left;
+}
+
+
+.header7 { 
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+  float: left;
+}
+
+
+.header8 { 
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body>
+
+  
+  <div class="row">
+<div class="header1">
+  <h1>เว็บ</h1>
+  <p>ขายหนังสือการ์ตูน</p>
+</div>
+
+
+  <div class="header2">
+    <div style="border: 1px solid black">
+      <h2>เข้าสู่ระบบ</h2>
+      <p>ID :   </p>
+      <p>Pass :   </p>
+
+  </div>
+  </div>
+  
+
+  <div class="header3">
+    <div style="border: 1px solid black">
+      <h1>***NEW***</h1>
+    <a target="_blank" href="รูปใหม่.jpg">
+      <img src="รูปใหม่.jpg" alt="Cinque Terre" width="300" height="300"></a>
+      <a>ประวัติของการ์ตูน (แบบย่อ)</a>
+    </div>
+  </div>
+  
+
+  <div class="header4">
+    <div style="border: 1px solid black">
+      <a target="_blank" href="รูปโปรไฟล์.jpg"></a>
+      <img src="รูปโปรไฟล์.jpg" alt="Cinque Terre" width="100" height="100"></a>
+    <h2>โปรไฟล์</h2>
+    <p>ข้อมูลโปรไฟล์ผู้ใช้งาน</p>
+    
+  </div>
+</div>
+</div>
+
+
+<div class="header5">
+  <a href="#">หน้าหลัก</a>
+</div>
+  <div class="header5">
+  <a href="#">ประเภทหนังสือการ์ตูน</a>
+</div>
+  <div class="header5">
+  <a href="#">สินค้าที่กำลังลด</a>
+</div>
+
+
+  <div class="header6">
+  <a href="#">ตระกร้าที่ใส่สินค้า</a>
+</div>
+  <div class="header6">
+  <a href="#">ยืนยันการสั่งซื้อ</a>
+</div>
+  <div class="header6">
+  <a href="#">ประวัติการสั่งซื้อ</a>
+</div>
+
+
+<div class="header7">
+  <a target="_blank" href="รูปที่1.jpg">
+    <img src="รูปที่1.jpg" alt="Cinque Terre" width="300" height="300"></a>
+  </div>
+  <div class="header7">
+  <a target="_blank" href="รูปที่2.jpg">
+    <img src="รูปที่2.jpg" alt="Cinque Terre" width="300" height="300"></a>
+  </div>
+  <div class="header7">
+    <a target="_blank" href="รูปที่3.jpg">
+    <img src="รูปที่3.jpg" alt="Cinque Terre" width="300" height="300"></a>
+  </div>
+  <div class="header7">
+    <a target="_blank" href="รูปที่4.jpg">
+      <img src="รูปที่4.jpg" alt="Cinque Terre" width="300" height="300"></a>
+    </div>
+    <div class="header7">
+    <a target="_blank" href="รูปที่5.jpg">
+      <img src="รูปที่5.jpg" alt="Cinque Terre" width="300" height="300"></a>
+    </div>
+
+    
+    <div class="header7">
+      <a target="_blank" href="รูปที่6.jpg">
+      <img src="รูปที่6.jpg" alt="Cinque Terre" width="300" height="300"></a>
+    </div>
+    <div class="header7">
+      <a target="_blank" href="รูปที่7.jpg">
+        <img src="รูปที่7.jpg" alt="Cinque Terre" width="300" height="300"></a>
+      </div>
+      <div class="header7">
+      <a target="_blank" href="รูปที่8.jpg">
+        <img src="รูปที่8.jpg" alt="Cinque Terre" width="300" height="300"></a>
+      </div>
+      <div class="header7">
+        <a target="_blank" href="รูปที่9.jpg">
+        <img src="รูปที่9.jpg" alt="Cinque Terre" width="300" height="300"></a>
+      </div>
+
+
+<div class="header8">
+  <a href="#">หน้า1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">...หน้าสุดท้าย</a>
+</div>
+
+
+</div>
+
+</body>
+</html>
